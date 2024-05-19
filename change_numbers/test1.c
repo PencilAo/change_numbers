@@ -2,11 +2,11 @@
 #include <stdio.h>
 int main()
 {
-	int arr[10];
-	int i, a;
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	int arr1[10];
-	int arr2[10];
+	int arr[100];
+	int i, a,sz;
+	scanf("%d",&sz);   //确定有多少个数字
+	int arr1[100];
+	int arr2[100];
 	for (i = 0; i < sz; i++)
 	{
 		scanf("%d", &arr[i]);
